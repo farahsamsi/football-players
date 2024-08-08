@@ -11,6 +11,9 @@
     .hero-img{
         margin-top: 2.5rem;
     }
+    #players-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -22,5 +25,8 @@
     }
     .hero-container h1{
         max-width: fit-content;
+    }
+    #players-container{
+        grid-template-columns: repeat(1,1fr);
     }
 }
