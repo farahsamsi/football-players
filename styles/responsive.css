@@ -1,12 +1,26 @@
 @media screen and (max-width:768px) {
-    h1{
-        background-color: green;
+    section{
+        padding: 0 .5rem;
+    }
+    .hero-container h1{
+        font-size: 3rem;
+    }
+    .hero-container{
+        display: block;
+    }
+    .hero-img{
+        margin-top: 2.5rem;
     }
 }
 
 @media screen and (max-width:576px) {
-    h1{
-        background-color: red;
+    .nav-items{
+        display: none;
     }
-    
+    .menu{
+        display: block;
+    }
+    .hero-container h1{
+        max-width: fit-content;
+    }
 }
