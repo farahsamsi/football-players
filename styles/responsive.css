@@ -5,14 +5,20 @@
     .hero-container h1{
         font-size: 3rem;
     }
-    .hero-container{
+    .hero-container, #highlights{
         display: block;
     }
-    .hero-img{
+    .hero-img, .highlight-img{
         margin-top: 2.5rem;
     }
     #players-container{
         grid-template-columns: repeat(2,1fr);
+    }
+    .highlight-text{
+        padding-right: 6rem;
+    }
+    .highlight-text h1{
+        font-size: 2rem;
     }
 }
 
@@ -28,5 +34,11 @@
     }
     #players-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .highlight-text{
+        padding-right: 0rem;
+    }
+    .highlight-text h1{
+        line-height: 2.6rem;
     }
 }
